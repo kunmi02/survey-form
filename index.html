@@ -9,18 +9,68 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-    Hello Camper!
+    <form id="survey-form">
+      <label id="name-label">Name</label><br>
+      <input type="text" placeholder="Enter your name" id="name" required>
+      <br>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+      <label id="email-label">Email</label>
+      <input type="email" placeholder="Enter your Email" id="email" required>
+      <br>
 
-    - The freeCodeCamp Team
+      <label id="number-label">Age(Optional)</label>
+      <input type="number" placeholder="Age" id="number" min="18" max="25">
+      <br>
 
-    -->
+      <label>Which option best describes your current role</label>
+      <select id="dropdown">
+        <option>Student</option>
+        <option> Full Time Job</option>
+        <option> Full Time Learner</option>
+        <option> Prefer not to say</option>
+        <option> Other</option>
+      </select>
+      <br>
+
+      <label>Would you recommend freeCodeCamp to a friend</label>
+      
+      <p><input type="radio" value="Definitely" name="recommendation">Definitely</p>
+      <p><input type="radio" value="Maybe" name="recommendation">Maybe</p>
+      <p><input type="radio" value="Not sure" name="recommendation">Not sure</p>
+      <br>
+
+      <label>What is your favourite feature of freeCodeCamp?</label>
+      <select>
+        <option>Challenges</option>
+        <option> Projects</option>
+        <option> Community</option>
+        <option> Open Source</option>
+      </select>
+      <br>
+
+      <label>What would you like to see improved? (Check all that apply)</label>
+      <p><input type="checkbox" value="Front"> Front-end Projects</p>
+      <p><input type="checkbox" value="Back"> Back-end Projects</p>
+      <p><input type="checkbox" value="Data"> Data Visualization</p>
+      <p><input type="checkbox" value="Challenge"> Challenges</p>
+      <p><input type="checkbox" value="Open"> Open Source Community</p>
+      <p><input type="checkbox" value="Gitter"> Gitter help rooms</p>
+      <p><input type="checkbox" value="Videos"> Videos</p>
+      <p><input type="checkbox" value="City"> City Meetups</p>
+      <p><input type="checkbox" value="Wiki"> Wiki</p>
+      <p><input type="checkbox" value="Front"> Forum</p>
+      <p><input type="checkbox" value="Additional"> Additional Courses</p>
+
+      <label>Any comments or suggestions</label>
+      <textarea></textarea>
+      <p><input type="submit" id="submit"></p>
+
+
+    </form>
+    
     <script  src="js/index.js"></script>
   </body>
 </html>
