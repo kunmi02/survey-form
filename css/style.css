@@ -1,0 +1,41 @@
+body {
+    display: block;
+    
+    /* display: flex; */
+    background-image: url(C:\Users\user\survey-form\images\suvey-image.jpg);
+}
+#title {
+    /* text-align: center; */
+    width: 50%;
+}
+
+#survey-form {
+    color: whitesmoke;
+    display: block;
+    margin: auto;
+    background-color: blue;
+    width: 80%;
+    padding: 15px;
+    font-weight: 500;
+
+}
+
+#name-label, #email-label, #number-label{
+    display: block;
+    padding: 8px;
+    width: 80%;
+   
+    
+}
+#dropdown {
+    padding: 8px;
+
+}
+
+/* input{
+    color: white;
+    /* display: block; */
+    /* padding: 8px;
+    width: 80%
+
+}  */
